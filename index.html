@@ -1,114 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<link rel="manifest" href="manifest.json">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Dentária Anhanguera | Implantes, Facetas e Reabilitação Oral em Goiânia</title>
-    <meta name="description" content="Clínica Dentária Anhanguera em Goiânia especializada em implantes dentários, facetas, próteses, clareamento e reabilitação oral. Atendimento humanizado e tecnologia moderna.">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Clínica Dentária Anhanguera | Goiânia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="container nav-container">
-            <div class="logo"><strong>CLÍNICA ANHANGUERA</strong></div>
-            <nav>
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#procedimentos">Procedimentos</a>
-                <a href="#contato">Contato</a>
-            </nav>
-            <a href="https://wa.me/5562994509125" class="btn-agendar">Agendar</a>
+        <div class="container">
+            <h1>CLÍNICA ANHANGUERA</h1>
         </div>
     </header>
 
     <section id="inicio" class="hero">
-        <div class="container hero-content">
-            <h1>Transformando Sorrisos, Realizando Sonhos</h1>
-            <p>Tecnologia, experiência e atendimento humanizado para cuidar da saúde do seu sorriso.</p>
-            <div class="hero-actions">
-                <a href="https://wa.me/5562994509125" class="btn-primary">Agendar pelo WhatsApp</a>
-                <a href="#procedimentos" class="btn-secondary">Conheça nossos tratamentos</a>
-            </div>
+        <div class="container">
+            <h1>Transformando Sorrisos</h1>
+            <p>Atendimento humanizado em Goiânia.</p>
         </div>
     </section>
 
-    <section id="sobre" class="container section-spacing">
-        <h2>Tradição e Excelência</h2>
-        <p class="text-center">A Clínica Dentária Anhanguera é referência em odontologia premium em Goiânia, unindo tradição e inovação para oferecer um atendimento personalizado e sofisticado.</p>
-    </section>
-
-    <section id="procedimentos" class="container section-spacing">
-        <h2>Nossas Especialidades</h2>
-        <div class="grid">
-            <div class="card"><h3>Implantes Dentários</h3></div>
-            <div class="card"><h3>Próteses</h3></div>
-            <div class="card"><h3>Facetas Dentárias</h3></div>
-            <div class="card"><h3>Clareamento Dental</h3></div>
-            <div class="card"><h3>Reabilitação Oral</h3></div>
-            <div class="card"><h3>Ortodontia</h3></div>
-        </div>
-    </section>
-
-    <section id="equipe" class="container section-padding">
-        <h2 style="text-align: center; margin-bottom: 40px;">Nossa Equipe</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="img/equipe/foto1.jpg" alt="Dr(a). Nome" style="width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; object-fit: cover;">
-                <h3>Dr(a). Nome</h3>
-                <p>Especialista em Reabilitação</p>
-            </div>
-        </div>
-    </section>
-
-   <section id="galeria" class="container section-padding">
-        <h2 style="text-align: center; margin-bottom: 40px;">Conheça nossa Clínica</h2>
+    <section id="galeria" class="container">
+        <h2>Nossa Clínica</h2>
         <div class="grid-galeria">
-            <img src="foto1.jpg" onclick="openLightbox(this.src)" alt="Consultório">
-<img src="foto2.jpg" onclick="openLightbox(this.src)" alt="Sala de Espera">
-<img src="foto3.jpg" onclick="openLightbox(this.src)" alt="Atendimento">
-<img src="foto4.jpg" onclick="openLightbox(this.src)" alt="Recepção">
-        </div>
-    </section>	
-
-    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-        <img id="lightbox-img" src="" alt="Ampliação">
-    </div>
-
-    <section id="faq" class="container section-padding">
-        <h2 style="text-align: center; margin-bottom: 40px;">Perguntas Frequentes</h2>
-        <details class="faq-item">
-            <summary>Como agendar uma avaliação?</summary>
-            <p>Você pode agendar diretamente pelo nosso WhatsApp.</p>
-        </details>
-        <details class="faq-item">
-            <summary>Quais convênios são aceitos?</summary>
-            <p>Entre em contato conosco para verificar seu plano.</p>
-        </details>
-    </section>
-
-    <section id="contato" style="background: #F5F5F5; text-align: center; padding: 60px 0;">
-        <div class="container">
-            <h2>Transforme seu sorriso hoje mesmo.</h2>
-            <a href="https://wa.me/5562994509125" class="btn-primary">Agendar pelo WhatsApp</a>
+            <img src="foto1.jpg" alt="Consultório">
+            <img src="foto2.jpg" alt="Sala de Espera">
+            <img src="foto3.jpg" alt="Atendimento">
+            <img src="foto4.jpg" alt="Recepção">
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>Clínica Dentária Anhanguera | Av. Tocantins, 450 - Setor Central, Goiânia - GO</p>
-            <p>Instagram: @clinicadentariaanhanguera | WhatsApp: (62) 99450-9125</p>
-        </div>
-    </footer>
-
-    <a href="https://wa.me/5562994509125" class="whatsapp-float" target="_blank">
-        <i class="bi bi-whatsapp"></i>
-    </a>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
