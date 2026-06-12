@@ -1,0 +1,9 @@
+{
+  "name": "Clínica Dentária Anhanguera",
+  "short_name": "Anhanguera",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1F4C7A",
+  "description": "Clínica odontológica em Goiânia"
+}
